@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>tablas</title>
+    </head>
+    <body>
+        <center><h1>Tablas</h1></center>
+
+        <div>
+                <p>Las tablas en las páginas web son necesarias ya que algunos datos las necesitan y facilitan la organización y visualización de estos algunos ejemplos pueden ser precios de acciones, puntajes deportivos, datos de facturas y más. </p>
+                
+                <h2>Crear una tabla</h2>
+                <p>Antes de mostrar datos, primero debe crear la tabla que contendrá los datos utilizando el elemento <em>table</em>.
+                Este elemento contendrá todos los datos tabulares que planea mostrar.</p>
+                
+                <h2>Filas</h2>
+                <p>El primer paso en la introducción de datos en la tabla es añadir filas utilizando la fila de la tablaelemento: <tr>.
+                <table> <tr> </tr> <tr> </tr> </table>
+                En el ejemplo anterior, se han agregado dos filas a la tabla.</p>
+                <h3>Columnas</h3>
+                <p> Las filas no son suficientes para agregar datos a una tabla. Cada elemento de celda también debe ser definido. En HTML, puede agregar datos mediante la tabla de datos elemento: <strong>td</strong>.
+                <table> <tr> <td>73</td> <td>81</td> </tr> </table>
+                En el ejemplo anterior, se ingresaron dos puntos de datos ( 73 y 81) en la fila que existe. Al agregar dos puntos de datos, creamos dos celdas de datos.
+                Si la tabla se mostrara en el navegador, mostraría una tabla con una fila y dos columnas. </p>
+                
+                <h2>Encabezados</h2>
+                <p>
+                Para añadir títulos a las filas y columnas, se puede utilizar el encabezado de tabla elemento: <strong><em>th</em><strong>.
+                El elemento de encabezado de tabla se utiliza como un elemento de datos de tabla, excepto con un título relevante.
+                <table> <tr> <th></th> <th scope="col">Saturday</th> <th scope="col">Sunday</th> </tr> <tr> <th scope="row">Temperature</th> <td>73</td> <td>81</td> </tr> </table>
+                ¿Qué pasó en el código de arriba?
+                Primero, se agregó una nueva fila para contener los tres encabezados: un encabezado en blanco, un Saturday encabezado y un Sunday encabezado. El encabezado en blanco crea la celda de tabla adicional necesaria para alinear los encabezados de la tabla correctamente sobre los datos a los que corresponden.
+                En la segunda fila, uno encabezado de la tabla se añadió como un título de fila: Temperature.
+                Tenga en cuenta, también, el uso del atributo <strong><em>scope</em><strong>, que puede tomar uno de dos valores:
+                <ul>
+                <li> <strong><em>row</em><strong>, - este valor deja claro que el encabezado es para una fila.</li>
+                <li><strong><em>col</em><strong>, - este valor deja claro que el encabezado es para una columna.</li>
+                </ul><br>
+                </p>
+                </div> 
+
+    </body>
+</html>

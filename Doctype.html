@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>
+        Documentos Html.
+    </title>
+</head>
+
+<body>
+    <div>
+
+        <br>
+        <center>
+            <h1>Documentos html</h1>
+        </center>
+
+        <p>
+            HTML es un lenguaje de marcado que se utiliza para el desarrollo de paginas de internet.
+            Los documentos en HTML proporcionan una estructura al contenido que aparece en un sitio web, como imágenes,
+            texto o videos.
+            <strong>HTML</strong> <em>significa lenguaje de marcado de hipertexto</em> que es:
+            <ul>
+                <li>Un lenguaje de marcadoes un lenguaje de computadora que define la estructura y la presentación del
+                    texto en bruto.</li>
+                <li>En HTML, la computadora puede interpretar el texto sin procesar que está envuelto en elementos
+                    HTML.</li>
+                <li>El hipertexto es un texto que se muestra en una computadora o dispositivo que brinda acceso a otro
+                    texto a través de enlaces, también conocidos como hipervínculos .</li>
+            </ul>
+        </p>
+        <div>
+            <br>
+            <ul>
+                <li><a href="#doct">Declaracion del tipo de documento</a></li>
+                <li><a href="#etiquetas">Etiquetas html</a></li>
+                <li><a href="#estructura">Estructura</a></li>
+                <li><a href="#titulo">Titulos</a></li>
+                <li><a href="#coment">Comentarios</a></li>
+                <li><a href="#esp">Espacios en blanco e identacion</a></li>
+                <li><a href="#doct">Validacion W3C</a></li>
+            </ul>
+            <br><br>
+
+            <div>
+                <h2 id="doct">Declaracion del tipo de documentos</h2>
+                <p>
+                    Cuando escribimos nuestro documento HTML, lo primero que tenemos que escribir es el <strong>Doctype</strong>.
+                    El <strong>Doctype</strong> es la declaracion del tipo de documento, nos sirve para indicar que
+                    nuestro documento esta escrito siguiendo la estrucruta determinada para un <strong>DTD </strong>concreto.
+                </p>
+                <p>
+                    Un <strong>DTD </strong>es la definicion del tipo de documento, es donde se define la estructura
+                    que debe tener el documento y utilizamos
+                    el doctype para informar que DTD usamos.
+                    La declaración se ve así:
+                </p>
+                <p>
+                    Esta declaración es una instrucción y debe ser la primera línea de código en su documento HTML. Le
+                    informa al navegador qué tipo de documento debe esperar, junto con qué versión de HTML se está
+                    utilizando en el documento. Por ahora, el navegador asumirá correctamente que htmlen 
+                    <em>DOCTYPE html</em>se refiere a HTML5, ya que es el estándar actual.
+                    En el futuro, sin embargo, un nuevo estándar anulará HTML5. Para asegurarse de que su documento se
+                    interpreta correctamente para siempre, incluya siempre 
+                    <em>DOCTYPE html</em>al principio de sus documentos HTML.
+                    Por último, el código HTML siempre se guarda en un archivo con una extensión .html .
+
+                    La declaracion siempre debe ser la primera línea de código en sus archivos HTML. Esto le permite al
+                    navegador saber qué versión
+                    de HTML puede esperar.
+
+                </p>
+            </div>
+
+
+            <h2 id="etiquetas">Etiquetas en HTML</h2>
+            <p>
+                Html esta compuesto de elementos, un ejemplo de lo que pueden definir seria los parrafos, titulos,
+                listas etc. Estos elementos estructuran la pagina web y defienden su contenido.
+                Una declaracion en html esta compuesta por una etiqueta de apertura y una etiqueta de cierre:
+                <br>
+                
+                   <center><img src="./imagenes/sintaxis.JPG" height="80" width="300"></center>
+                
+                <br>
+                <ul>
+                    <li><strong>Elemento HTML (o simplemente, elemento):</strong> una unidad de contenido en un
+                        documento HTML formado por etiquetas HTML y el texto o medio que contiene.</li>
+                    <li><strong>Etiqueta HTML:</strong> el nombre del elemento, rodeado por un corchete angular
+                        de apertura y cierre.</li>
+                    <li><strong>Etiqueta de apertura:</strong> la primera etiqueta HTML utilizada para iniciar un
+                        elemento HTML. El tipo de etiqueta está rodeado de paréntesis de ángulo de apertura y cierre.</li>
+                    <li><strong>Contenido:</strong> la información (texto u otros elementos) contenida entre las
+                        etiquetas de apertura y cierre de un elemento HTML.</li>
+                    <li><strong>Etiqueta de cierre:</strong> la segunda etiqueta HTML utilizada para finalizar un
+                        elemento HTML. Las etiquetas de cierre tienen una barra inclinada ( /) dentro de ellas, justo
+                        después del soporte del ángulo izquierdo.</li>
+
+                </ul>
+            </p>
+
+        </div>
+        <div>
+            <h3>Etiqueta Html</h3>
+
+            La declaración <em>DOCTYPE html</em> proporciona al navegador dos datos (el tipo de documento y la versión
+            HTML que se espera), pero en realidad no agrega ninguna estructura o contenido HTML.
+            Para crear la estructura y el contenido HTML, debemos agregar la etiqueta <em>html</em> de apertura y
+            cierre después de declarar <em>DOCTYPE html</em>:<br>
+            <center><img src="./imagenes/html.JPG"></center>
+            
+            Cualquier cosa entre las etiquetas de apertura <em>html</em> y cierre <em>html</em>se interpretará como
+            código HTML. Sin estas etiquetas, es posible que los navegadores puedan
+            interpretar incorrectamente su código HTML.
+
+            <h3>Etiqueta Head</h3>
+            <p>
+
+                Brindemos al navegador información sobre la página en sí. Podemos hacer esto agregando un elemento <em>head</em>.
+                 El <em>Head</em> es parte de esta metáfora HTML. Va por encima del cuerpo de la pagina. El elemento
+                contiene los metadatos de una página web. Los metadatos son información sobre la
+                página que no se muestra directamente en la página web. A diferencia de la información dentro de la 
+                etiqueta <em>body</em>.
+            </p><br>
+
+            <h3>Etiqueta title</h3>
+            <p>
+                La pestaña de un navegador muestra el título especificado en la etiqueta <em>title</em>.Esta etiqueta
+                está siempre dentro del <em>head.</em>
+                Si tuviéramos que abrir un archivo que contenga el código HTML en el ejemplo anterior,
+                el navegador mostrará las palabras "Titulo" en la barra de título (o en el
+                título de la pestaña).<br>
+                
+                <center><img src="./imagenes/title.JPG" height="200" width="400"></center>
+                
+                <br>
+
+            </p>
+            <h3>Etiqueta body</h3>
+            <p>
+                Uno de los elementos HTML clave que utilizamos para crear una página web es el elemento body . Solo el
+                contenido dentro de las etiquetas corporales de apertura y cierre se puede mostrar en la pantalla. Así
+                es como se ven las etiquetas de apertura y cierre. Una vez que el archivo tiene un cuerpo, se pueden
+                agregar muchos tipos diferentes de contenido,
+                incluyendo texto, imágenes y botones, al cuerpo.
+                <center><img src="./imagenes/body.JPG" height="100" width="150"></center>
+            </p>
+        </div>
+        <div>
+            <h2 id="estructura">Estructura Html</h2>
+            <p>
+                HTML se organiza como una colección de relaciones de árbol genealógico. Cuando un elemento está
+                contenido dentro de otro elemento, se considera el elemento secundario de ese elemento. Se dice que el
+                elemento hijo está anidadodentro del elemento padre.<br>
+                <center><img src="./imagenes/estruct1.JPG"></center>
+                En el ejemplo anterior, el <em>p</em>elemento está anidado dentro del <em>body</em>elemento. El <em>p</em>elemento
+                se considera un elemento secundario del <em>body</em>elemento y el <em>body</em>elemento se considera
+                el elemento primario. También puede ver que hemos agregado dos espacios de sangría (usando la barra de
+                spacio) para una mejor legibilidad.
+                Dado que puede haber múltiples niveles de anidación, esta analogía puede extenderse a los nietos,
+                bisnietos y más. La relación entre los elementos y sus elementos ancestros y descendientes se conoce
+                como <em>jerarquía</em> .<br>
+                <center><img src="./imagenes/estruc1.JPG"></center>
+                En este ejemplo, el <em>body</em> elemento es el padre del <em>div</em>elemento. Tanto el <em>h1</em>
+                y <em>p</em>los elementos son
+                hijos del <em>div</em>elemento. Debido
+                a que los elementos h1 y p están en el mismo nivel, se consideran hermanos y son nietos
+                del elemento <em>body</em>.
+            </p>
+        </div>
+
+        <div>
+            <h2 id="titulo">Encabezados</h2>
+
+            <p>
+                Los encabezados en HTML son similares a los encabezados en otros tipos de medios. Por
+                ejemplo, en los
+                periódicos, los encabezados grandes suelen utilizarse para captar la atención de un
+                lector. Otras
+                veces, los títulos se usan para describir el contenido, como el título de una película o un
+                artículo
+                educativo.
+                HTML sigue un patrón similar. En HTML, hay seis encabezados diferentes, o elementos de
+                encabezado. 
+                Los encabezados se pueden usar para una variedad de propósitos, como títulos, artículos u
+                otras formas
+                de contenido.
+                La siguiente es la lista de elementos de encabezado disponibles en HTML. Se ordenan de
+                mayor a menor
+                tamaño.
+
+                <ul>
+                    <li>
+                        <h1>Encabezado 1</h1>
+                    </li>
+                    <li>
+                        <h2>Encabezado 2</h2>
+                    </li>
+                    <li>
+                        <h3>Encabezado 3</h3>
+                    </li>
+                    <li>
+                        <h4>Encabezado 4</h4>
+                    </li>
+                    <li>
+                        <h5>Encabezado 5</h5>
+                    </li>
+                    <li>
+                        <h6>Encabezado 6</h6>
+                    </li>
+                </ul>
+            </p>
+            <h2>Divs</h2>
+
+            <p>
+                Uno de los elementos más populares en HTML es el elemento <em>div</em>.Es la
+                abreviatura de "división" o un contenedor que divide la página en
+                secciones. Estas secciones son muy útiles para agrupar elementos
+                HTML juntos, puede contener cualquier texto u otro elemento HTML, como
+                enlaces, imágenes o videos. Recuerde siempre agregar dos espacios
+                de sangría cuando anide elementos dentro de divs para una mejor
+                legibilidad.
+                <center><img src="./imagenes/div.JPG"></center>
+            </p>
+        </div>
+        <div>
+            <h2 id="coment">Comentarios en HTML</h2>
+
+            <p>Los archivos HTML también le permiten agregar comentarios a su código.<br>
+                <center><img src="./imagenes/comentarios.JPG"></center>
+                Los caracteres intermedios serán ignorados por su navegador.
+                Incluir comentarios en su código es útil por muchas razones:
+                <ul>
+                    <li>Le ayudan a usted (y a otros) a entender su código si decide regresar y revisarlo en una fecha
+                        mucho más posterior.</li>
+                    <li>Le permiten experimentar con un nuevo código, sin tener que eliminar el código antiguo.</li>
+                </ul>
+            </p>
+        </div>
+        <div>
+            <h2 id="esp">Espacios e identacion</h2>
+
+            <h3>Espacio en blanco</h2>
+                <p>El resto de esta lección se centrará en algunas herramientas que usan los desarrolladores para hacer
+                    que el código sea más fácil de interpretar.
+                    A medida que crece el código en un archivo HTML, cada vez es más difícil hacer un seguimiento de
+                    cómo se relacionan los elementos. Los programadores utilizan dos herramientas para visualizar la
+                    relación entre los elementos: espacios en blanco y sangría . <br>
+                    El navegador ignora los espacios en blanco en los archivos HTML cuando representa una página web,
+                    por lo que se puede utilizar como una herramienta para facilitar la lectura y el seguimiento del
+                    código.
+                </p>
+                <h2>Sangria</h2>
+                <p>La segunda herramienta que usan los desarrolladores web para facilitar la lectura de la estructura
+                    del código es la sangría. Los espacios se insertan utilizando las barras de espacio y tab en su
+                    teclado. </p>
+                <p>El World Wide Web Consortium , o W3C, es responsable de mantener los estándares de estilo de
+                    HTML. Al momento de escribir, el W3C recomienda 2 espacios de sangría al escribir el código
+                    HTML. Aunque su código funcionará sin exactamente dos espacios, este estándar es seguido por la
+                    mayoría de los desarrolladores web profesionales. La sangría se utiliza para visualizar fácilmente
+                    qué elementos están anidados dentro de otros elementos.<br>
+
+                   <center><img src="./imagenes/sangria.JPG"></center>
+                    <br>
+                    En el ejemplo anterior, Paragraph 1y la div etiqueta están anidadas dentro de la body etiqueta, por
+                    lo que están sangradas dos espacios. El Paragraph 2elemento está anidado dentro de la divetiqueta,
+                    por lo que se sangra dos espacios adicionales.
+                </p>
+
+        </div>
+
+</body>
+
+</html>

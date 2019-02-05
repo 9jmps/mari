@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Enlaces</title>
+</head>
+
+<body>
+    <center><h1>Enlaces</h1></center>
+    <br>
+    <br>
+    <div>
+        <h2>Enlaces en una nueva ventana</h2>
+        <p>
+            alguna vez clic en un enlace y observó que la página web resultante se abría en una nueva ventana
+            del navegador, Si es así, puedes agradecer el atributo <strong>a</strong>del elemento <strong>target</strong>.
+            El atributo especifica cómo debe abrirse un enlace.
+            Es posible que uno o más enlaces en su página web se vinculen a un sitio web completamente
+            diferente. En ese caso, es posible que desee que los usuarios lean el sitio web vinculado, pero espero
+            que vuelvan a su página web. Esto es exactamente cuando el targetatributo es útil!
+            Para que un enlace se abra en una nueva ventana, el targetatributo requiere un valor
+            de _blank. El atributo <strong>target</strong> se puede agregar directamente a la etiqueta de apertura
+            del elemento de anclaje, al igual que el atributo <strong>href</strong>.<br>
+            <center><img src="./imagenes/enlace1.JPG"></center>
+            En el ejemplo anterior, configurar el atributo <strong>target</strong> para que "_blank" indique al
+            navegador que abra la página de Wikipedia relevante en una nueva ventana.
+            En este ejercicio, hemos utilizado la terminología "abrir en una nueva ventana". Es probable que esté
+            utilizando un navegador moderno que abre sitios web en nuevas pestañas, en lugar de ventanas
+            nuevas. Antes de la aparición de los navegadores con pestañas, se tenían que abrir ventanas de
+            navegador adicionales para ver más sitios web. El target="_blank" atributo, cuando se usa en los
+            navegadores modernos, abrirá nuevos sitios web en una nueva pestaña.
+        </p>
+    </div>
+
+    <div>
+        <h2> Enlace en una página relativa</h2> 
+
+        <p> Al crear sitios web estáticos de varias páginas, los desarrolladores web a menudo
+            almacenan archivos HTML en el directorio raíz o una carpeta principal donde se almacenan todos los
+            archivos del proyecto. A medida que aumenta el tamaño de los proyectos que creas, puedes usar
+            carpetas adicionales dentro de la carpeta principal del proyecto para organizar tu código.
+            project-folder/ |—— about.html |—— contact.html |—— index.html
+            El ejemplo anterior muestra tres archivos diferentes: about.html , contact.html e index.html en una
+            carpeta.
+            Los archivos HTML a menudo se almacenan en la misma carpeta, como se muestra en el ejemplo
+            anterior. Si el navegador muestra actualmente index.html , también sabe
+            que about.html y contact.html están en la misma carpeta. Debido a que los archivos se almacenan en
+            la misma carpeta, podemos vincular páginas web mediante una ruta relativa .
+            <center><img src="./imagenes/enlace2.JPG"></center>
+            En este ejemplo, la etiqueta strong se usa con una ruta relativa para vincular desde el archivo
+            HTML actual al  archivocontact.html en la misma carpeta. En la página web,  aparecerá Contact como
+            un enlace.
+            Una ruta relativa es un nombre de archivo que muestra la ruta a un archivo local (un archivo en el
+            mismo sitio web, como ./index.html) frente a una ruta absoluta (una URL completa, como
+            la https://www.codecademy.com/learn/learn-htmlque se almacena en una carpeta
+            diferente). El ./en ./index.htmlcuenta el navegador para buscar el archivo en la carpeta actual.
+        </p>
+
+
+
+         
+        <h2> Enlace a voluntad</h2>
+        <p> Probablemente haya visitado sitios web donde no todos los enlaces estaban formados por texto. Tal
+            vez los enlaces en los que hizo clic fueron imágenes o alguna otra forma de contenido.  
+            Hasta ahora, hemos agregado enlaces que se componían solo de texto, como el siguiente:
+            <center><img src="./imagenes/enlace3.JPG"></center>
+            <br> Sin embargo, los enlaces de solo texto reducirían significativamente su flexibilidad como
+            desarrollador web.
+            Afortunadamente, HTML le permite convertir casi cualquier elemento en un enlace envolviéndolo con
+            un elemento de anclaje.
+
+    </div>
+
+    <div>
+        <h2>Enlace en la misma pagina</h2>
+
+        <p>
+            En este punto, tenemos todo el contenido que queremos en nuestra página. Ya que tenemos
+            mucho contenido, no todo cabe en la pantalla. 
+            Cuando los usuarios visitan nuestro sitio, queremos que puedan hacer clic en un enlace y
+            que la página se desplace automáticamente a una sección específica. </p>
+        <p>
+            Para enlazar a un objetivo en la misma página, debemos darle al ID:
+            <center><img src="./imagenes/enlace4.JPG"></center>
+            En este ejemplo, al elemento <em>p</em> se le asigna una <em>id</em> "superior" y al
+            elemento <em>h1<em> se le asigna "abajo". Se puede agregar a la mayoría de los elementos en
+             una página web.
+             Una id debe ser descriptiva para que sea más fácil recordar el propósito de un
+             enlace. El enlace de destino es una cadena que contiene el carácter <strong>#</strong>
+             y el elemento de destino id.
+             <center><img src="./imagenes/enlace5.JPG"></center>
+            En el ejemplo anterior, los enlaces <strong> id="top"</strong>y <strong>d="bottom"</strong>p id="top">y <h1 id="bottom">están incrustados
+            en una lista ordenada. Estos enlaces aparecen en el navegador como una lista numerada de enlaces. </p>
+    </div>
+
+
+</body>
+
+</body>
+
+</html>
