@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Imgvideo</title>
+</head>
+
+<body>
+
+    <center>
+        <h1>Imagenes y Video</h1>
+    </center>
+    <br>
+
+    <h2>Imagenes</h2>
+    <p>La etiqueta <em>img</em> le permite agregar una imagen a una página web. La mayoría de los elementos requieren
+        etiquetas de apertura y cierre, pero la etiqueta <em>img</em> es una etiqueta de cierre automático . Tenga en
+        cuenta que el final de la etiqueta tiene una barra diagonal /. Las etiquetas de cierre automático pueden
+        incluir u omitir la barra diagonal final, ambas se representarán correctamente.
+        <center><img src="./imagenes/img.JPG"></center>
+        La etiqueta <em>img</em> tiene un atributo requerido llamado <em>src</em>. El atributo <em>src</em> se debe
+        establecer
+        en el origen de la imagen o en la ubicación de la imagen. En este caso, el valor de src debe ser el localizador
+        uniforme de recursos (URL) de la imagen. Una URL es la dirección web o la dirección local donde se almacena un
+        archivo.
+    </p>
+    <div>
+        <h2>Alts de la imagen</h2>
+        <p>Parte de ser un desarrollador web excepcional es hacer que su sitio sea accesible para usuarios de todos los
+            orígenes. Para que la web sea más inclusiva, debemos considerar qué sucede cuando las tecnologías de
+            asistencia, como los lectores de pantalla, encuentran etiquetas de imagen.
+            <br>
+            El atributo <em><strong>alt</strong></em>, que significa texto alternativo, da sentido a las imágenes en
+            nuestros
+            sitios. El atributo <em><strong>alt</strong></em> se puede agregar a la etiqueta de imagen al igual que
+            el srcatributo. El valor
+            de alt debe ser una descripción de la imagen. </p><br>
+            <center><img src="./imagenes/img2.JPG"></center>
+
+             El atributo <strong>alt</strong> también sirve para los siguientes propósitos:
+            <ul>
+            <li>Si una imagen no se carga en una página web, un usuario puede pasar el mouse sobre el área
+                originalmente diseñada para la imagen y leer una breve descripción de la imagen. Esto es posible
+                gracias a la descripción que proporciona en el <strong>alt</strong> atributo. </li>
+            <li>Los usuarios con discapacidades visuales a menudo navegan por la web con la ayuda del software de
+                lectura de pantalla. Cuando incluye el atributo <strong>alt</strong> el software de lectura de pantalla
+                puede leer en voz alta la descripción de la imagen al usuario con discapacidad visual. </li>
+            <li><strong>alt</strong> también desempeña un papel en la optimización de motores de búsqueda (SEO), porque
+                los motores de búsqueda no pueden "ver" las imágenes en los sitios web mientras rastrean
+                internet. Tener atributos<strong>alt</strong>  descriptivos puede mejorar la clasificación de su sitio.
+            </li>
+            </ul>
+            Si la imagen en la página web no es una que transmita información significativa a un usuario (con
+            discapacidad visual o de otro tipo), el atributo <strong>alt</strong> debe dejarse vacío. </p>
+    </div>
+
+    <div>
+        <h2>Videos</h2>
+        <p>
+            Además de las imágenes, HTML también admite la visualización de videos. Al igual que la etiqueta img, la
+            etiqueta <strong>video</strong> requiere un atributo <strong>src</strong> con un enlace a la fuente de
+            video.  Sin embargo, a diferencia de la etiqueta de img, el elemento <strong>video</strong> requiere una
+            apertura y una etiqueta de cierre.
+            <center><img src="./imagenes/video.JPG"></center>
+            En este ejemplo, la fuente de video ( src) es myVideo.mp4La fuente puede ser un archivo de video alojado
+            junto a su página web, o una URL que apunta a un archivo de video alojado en otra página web.
+            Después del atributo src, los atributos widthy height se utilizan para establecer el tamaño del video que
+            se muestra en el navegador. El atributo controls le indica al navegador que incluya controles de video
+            básicos: pausar, reproducir y saltar.
+            El texto, "Video no compatible", entre las etiquetas de apertura y cierre de video solo se mostrará si el
+            navegador no puede cargar el video.</p>
+    </div>
+
+    
+</body>
+
+</html>
